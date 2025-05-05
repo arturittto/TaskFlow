@@ -1,4 +1,4 @@
-import { ListFilter } from "lucide-react"; // добавь вместе с другими иконками
+import { ListFilter } from "lucide-react";
 import { auth, db } from "../firebase";
 import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
@@ -12,11 +12,11 @@ import {
   doc,
   updateDoc
 } from "firebase/firestore";
-import { Moon, Sun } from "lucide-react"; // npm install lucide-react
+import { Moon, Sun } from "lucide-react";
 
 export default function Dashboard() {
   const navigate = useNavigate();
-  const [sharedWithInput, setSharedWithInput] = useState(""); // для ввода email-ов
+  const [sharedWithInput, setSharedWithInput] = useState("");
   const [user, setUser] = useState(null);
   const [taskInput, setTaskInput] = useState("");
   const [dueDate, setDueDate] = useState("");
@@ -29,7 +29,6 @@ export default function Dashboard() {
     return localStorage.getItem("theme") === "dark";
   });
 
-  // apply theme class to root element
   useEffect(() => {
     const root = window.document.documentElement;
     if (darkMode) {
@@ -65,9 +64,9 @@ export default function Dashboard() {
         }))
         .filter((task) => {
           return (
-            task.owner === user.email || // текущий пользователь — владелец
+            task.owner === user.email ||
             (Array.isArray(task.sharedWith) &&
-              task.sharedWith.includes(user.email?.toLowerCase())) // или доступ по sharedWith
+              task.sharedWith.includes(user.email?.toLowerCase()))
           );
         });
   
