@@ -1,5 +1,4 @@
-1. Mājaslapas / lietotnes mērķis
-Izstrādātā lietotne TaskFlow ir paredzēta, lai lietotāji varētu efektīvi pārvaldīt savus uzdevumus, piezīmes un mērķus, kā arī sadarboties ar citiem lietotājiem. Tā piedāvā funkcionalitāti uzdevumu izveidei, rediģēšanai, termiņu pievienošanai, koplietošanai ar citiem un uzdevumu filtrēšanai. Lietotne ir pieejama tiešsaistē un to var izmantot jebkurā ierīcē.
+1. Mājaslapas mērķis izstrādātā lietotne TaskFlow ir paredzēta, lai lietotāji varētu efektīvi pārvaldīt savus uzdevumus, piezīmes un mērķus, kā arī sadarboties ar citiem lietotājiem. Tā piedāvā funkcionalitāti uzdevumu izveidei, rediģēšanai, termiņu pievienošanai, koplietošanai ar citiem un uzdevumu filtrēšanai. Lietotne ir pieejama tiešsaistē un to var izmantot jebkurā ierīcē.
 
 2. Izvēlētais risinājums un tehnoloģijas
 Lai sasniegtu šo mērķi, tika izmantotas šādas tehnoloģijas:
